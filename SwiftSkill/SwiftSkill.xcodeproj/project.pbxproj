@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,11 +13,12 @@
 		24F242B126293CB40073071F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F242AF26293CB40073071F /* Main.storyboard */; };
 		24F242B326293CB80073071F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F242B226293CB80073071F /* Assets.xcassets */; };
 		24F242B626293CB80073071F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F242B426293CB80073071F /* LaunchScreen.storyboard */; };
+		24F242CF262963470073071F /* BaseTarget.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 24F242CE262963470073071F /* BaseTarget.xcconfig */; };
 		5B8B6CE5E90E86F1DFEFEF1E /* Pods_SwiftSkill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBD7D5DA38F60B7D74861B7 /* Pods_SwiftSkill.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24F242A626293CB40073071F /* SwiftSkill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSkill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F242A626293CB40073071F /* SwiftSkill Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftSkill Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F242A926293CB40073071F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24F242AB26293CB40073071F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24F242AD26293CB40073071F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,8 +26,18 @@
 		24F242B226293CB80073071F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24F242B526293CB80073071F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24F242B726293CB80073071F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F242C92629628F0073071F /* BaseProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseProject.xcconfig; sourceTree = "<group>"; };
+		24F242CB262962EC0073071F /* DebugProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugProject.xcconfig; sourceTree = "<group>"; };
+		24F242CC262963090073071F /* InternalProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = InternalProject.xcconfig; sourceTree = "<group>"; };
+		24F242CD262963210073071F /* AppStoreProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppStoreProject.xcconfig; sourceTree = "<group>"; };
+		24F242CE262963470073071F /* BaseTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BaseTarget.xcconfig; sourceTree = "<group>"; };
+		24F242D12629646F0073071F /* DebugTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugTarget.xcconfig; sourceTree = "<group>"; };
+		24F242D22629647F0073071F /* InternalTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = InternalTarget.xcconfig; sourceTree = "<group>"; };
+		24F242D3262964A00073071F /* AppStoreTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppStoreTarget.xcconfig; sourceTree = "<group>"; };
 		2BA56E955531BC19807267F8 /* Pods-SwiftSkill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSkill.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSkill/Pods-SwiftSkill.debug.xcconfig"; sourceTree = "<group>"; };
+		345CDCDC5AA0B9C59097248B /* Pods-SwiftSkill.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSkill.appstore.xcconfig"; path = "Target Support Files/Pods-SwiftSkill/Pods-SwiftSkill.appstore.xcconfig"; sourceTree = "<group>"; };
 		3ED11BFC0FF38D2A6AD9C9B3 /* Pods-SwiftSkill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSkill.release.xcconfig"; path = "Target Support Files/Pods-SwiftSkill/Pods-SwiftSkill.release.xcconfig"; sourceTree = "<group>"; };
+		6CB6B144B0C02CC4CB6CAB58 /* Pods-SwiftSkill.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSkill.internal.xcconfig"; path = "Target Support Files/Pods-SwiftSkill/Pods-SwiftSkill.internal.xcconfig"; sourceTree = "<group>"; };
 		8DBD7D5DA38F60B7D74861B7 /* Pods_SwiftSkill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSkill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,7 +74,7 @@
 		24F242A726293CB40073071F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24F242A626293CB40073071F /* SwiftSkill.app */,
+				24F242A626293CB40073071F /* SwiftSkill Debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +82,7 @@
 		24F242A826293CB40073071F /* SwiftSkill */ = {
 			isa = PBXGroup;
 			children = (
+				24F242C4262961FD0073071F /* XCConfig */,
 				24F242A926293CB40073071F /* AppDelegate.swift */,
 				24F242AB26293CB40073071F /* SceneDelegate.swift */,
 				24F242AD26293CB40073071F /* ViewController.swift */,
@@ -82,13 +94,45 @@
 			path = SwiftSkill;
 			sourceTree = "<group>";
 		};
+		24F242C4262961FD0073071F /* XCConfig */ = {
+			isa = PBXGroup;
+			children = (
+				24F242C72629624B0073071F /* ProjectConfig */,
+				24F242C8262962650073071F /* TargetsConfig */,
+			);
+			path = XCConfig;
+			sourceTree = "<group>";
+		};
+		24F242C72629624B0073071F /* ProjectConfig */ = {
+			isa = PBXGroup;
+			children = (
+				24F242C92629628F0073071F /* BaseProject.xcconfig */,
+				24F242CB262962EC0073071F /* DebugProject.xcconfig */,
+				24F242CC262963090073071F /* InternalProject.xcconfig */,
+				24F242CD262963210073071F /* AppStoreProject.xcconfig */,
+			);
+			path = ProjectConfig;
+			sourceTree = "<group>";
+		};
+		24F242C8262962650073071F /* TargetsConfig */ = {
+			isa = PBXGroup;
+			children = (
+				24F242CE262963470073071F /* BaseTarget.xcconfig */,
+				24F242D12629646F0073071F /* DebugTarget.xcconfig */,
+				24F242D22629647F0073071F /* InternalTarget.xcconfig */,
+				24F242D3262964A00073071F /* AppStoreTarget.xcconfig */,
+			);
+			path = TargetsConfig;
+			sourceTree = "<group>";
+		};
 		5019D510FD2A54D4B35F0360 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				2BA56E955531BC19807267F8 /* Pods-SwiftSkill.debug.xcconfig */,
 				3ED11BFC0FF38D2A6AD9C9B3 /* Pods-SwiftSkill.release.xcconfig */,
+				6CB6B144B0C02CC4CB6CAB58 /* Pods-SwiftSkill.internal.xcconfig */,
+				345CDCDC5AA0B9C59097248B /* Pods-SwiftSkill.appstore.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,7 +155,7 @@
 			);
 			name = SwiftSkill;
 			productName = SwiftSkill;
-			productReference = 24F242A626293CB40073071F /* SwiftSkill.app */;
+			productReference = 24F242A626293CB40073071F /* SwiftSkill Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F242CF262963470073071F /* BaseTarget.xcconfig in Resources */,
 				24F242B626293CB80073071F /* LaunchScreen.storyboard in Resources */,
 				24F242B326293CB80073071F /* Assets.xcassets in Resources */,
 				24F242B126293CB40073071F /* Main.storyboard in Resources */,
@@ -236,6 +281,7 @@
 /* Begin XCBuildConfiguration section */
 		24F242B826293CB80073071F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F242CB262962EC0073071F /* DebugProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -295,8 +341,9 @@
 			};
 			name = Debug;
 		};
-		24F242B926293CB80073071F /* Release */ = {
+		24F242B926293CB80073071F /* Internal */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F242CC262963090073071F /* InternalProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -348,11 +395,11 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Internal;
 		};
 		24F242BB26293CB80073071F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BA56E955531BC19807267F8 /* Pods-SwiftSkill.debug.xcconfig */;
+			baseConfigurationReference = 24F242D12629646F0073071F /* DebugTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -370,9 +417,9 @@
 			};
 			name = Debug;
 		};
-		24F242BC26293CB80073071F /* Release */ = {
+		24F242BC26293CB80073071F /* Internal */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ED11BFC0FF38D2A6AD9C9B3 /* Pods-SwiftSkill.release.xcconfig */;
+			baseConfigurationReference = 24F242D22629647F0073071F /* InternalTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -388,7 +435,83 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Internal;
+		};
+		24F242D5262966CA0073071F /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F242CD262963210073071F /* AppStoreProject.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		24F242D6262966CA0073071F /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F242D3262964A00073071F /* AppStoreTarget.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GG862H69N;
+				INFOPLIST_FILE = SwiftSkill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.SwiftSkill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStore;
 		};
 /* End XCBuildConfiguration section */
 
@@ -397,19 +520,21 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24F242B826293CB80073071F /* Debug */,
-				24F242B926293CB80073071F /* Release */,
+				24F242B926293CB80073071F /* Internal */,
+				24F242D5262966CA0073071F /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Internal;
 		};
 		24F242BA26293CB80073071F /* Build configuration list for PBXNativeTarget "SwiftSkill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24F242BB26293CB80073071F /* Debug */,
-				24F242BC26293CB80073071F /* Release */,
+				24F242BC26293CB80073071F /* Internal */,
+				24F242D6262966CA0073071F /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Internal;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,20 @@
+//
+//  AppStoreTarget.xcconfig
+//  SwiftSkill
+//
+//  Created by xzmac on 2021/4/16.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../../../Pods/Target Support Files/Pods-SwiftSkill/Pods-SwiftSkill.appstore.xcconfig"
+
+#include "BaseTarget.xcconfig"
+
+
+TARGET_NAME = $(inherited) AppStore
+
+PRODUCT_BUNDLE_IDENTIFIER = fan.bundle.test
+
+SWIFT_VERSION = 5.0
